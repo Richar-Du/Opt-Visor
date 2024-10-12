@@ -1,4 +1,7 @@
-# Opt-Visor
+<h1>
+  <img src="asset/Opt-Visor.png" alt="image description" width="48" height="42">
+  Exploring the Design Space of Visual Context Representation in Video MLLMs
+</h1>
 
 ## 📰 News
 [2024.10.12] Release the inference codes of Opt-Visor.
