@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 | Model Name     | Visual Encoder | Language Decoder | # Training Frames | Tokens per Frame |
 |:----------------|:------------:|:----------------|:------------------|:----------------:|
-| [Opt-Visor-162frame-36token-Qwen2-7B](https://huggingface.co/Richard1999/Opt-Visor-162frame-36token-Qwen2-7B)  | [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384) | [Qwen2-7B](https://huggingface.co/Qwen/Qwen2-7B)  | 162 | 36 |
+| [Opt-Visor-120frame-49token-Qwen2-7B](https://huggingface.co/Richard1999/Opt-Visor-120frame-49token-Qwen2-7B)  | [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384) | [Qwen2-7B](https://huggingface.co/Qwen/Qwen2-7B)  | 120 | 49 |
 
 ## 🤖 Inference
 Run the following command to get the response of an instruction:
@@ -35,6 +35,10 @@ python inference.py \
        --video_path /path/to/your/video \
        --question "Please describe the video indetail."
 ```
+
+## To Do List
+- [x] Release the inference code.
+- [ ] Release the model.
 
 ## 📑 Citation
 ```
